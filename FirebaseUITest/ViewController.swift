@@ -13,6 +13,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+            print("--> Presenting Firebase UI Auth Controller")
+            self.present(appDelegate.authUI!.authViewController(), animated: true)
+        }
+    }
 
 
 }

@@ -21,6 +21,7 @@
 		E85D7D7E2C6A1BB2002466CB /* FirebaseEmailAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E85D7D7D2C6A1BB2002466CB /* FirebaseEmailAuthUI */; };
 		E85D7D802C6A1BB2002466CB /* FirebaseGoogleAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E85D7D7F2C6A1BB2002466CB /* FirebaseGoogleAuthUI */; };
 		E85D7D822C6A1BB2002466CB /* FirebaseOAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E85D7D812C6A1BB2002466CB /* FirebaseOAuthUI */; };
+		E8755F4E2C6CA29600A99C49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8755F4D2C6CA29600A99C49 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E85D7D642C6A1B62002466CB /* FirebaseUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85D7D682C6A1B62002466CB /* FirebaseUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUITestUITests.swift; sourceTree = "<group>"; };
 		E85D7D6A2C6A1B62002466CB /* FirebaseUITestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUITestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8755F4D2C6CA29600A99C49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		E85D7D3B2C6A1B61002466CB = {
 			isa = PBXGroup;
 			children = (
+				E8755F4D2C6CA29600A99C49 /* GoogleService-Info.plist */,
 				E85D7D462C6A1B61002466CB /* FirebaseUITest */,
 				E85D7D5D2C6A1B62002466CB /* FirebaseUITestTests */,
 				E85D7D672C6A1B62002466CB /* FirebaseUITestUITests */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85D7D512C6A1B62002466CB /* Assets.xcassets in Resources */,
+				E8755F4E2C6CA29600A99C49 /* GoogleService-Info.plist in Resources */,
 				E85D7D542C6A1B62002466CB /* Base in Resources */,
 				E85D7D4F2C6A1B61002466CB /* Base in Resources */,
 			);
@@ -651,7 +655,7 @@
 			repositoryURL = "https://github.com/firebase/FirebaseUI-iOS.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 14.2.0;
+				minimumVersion = 14.2.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

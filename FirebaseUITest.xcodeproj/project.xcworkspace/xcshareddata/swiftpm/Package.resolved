@@ -51,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/FirebaseUI-iOS.git",
       "state" : {
-        "revision" : "e3dbca53f4c920567e471c1abfc4594b819c6b5c",
-        "version" : "14.2.0"
+        "revision" : "328c5cf8ea5297b518fbebe318fc80e1d60f19cd",
+        "version" : "14.2.1"
       }
     },
     {
