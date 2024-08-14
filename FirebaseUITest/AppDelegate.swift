@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, FUIAuthDelegate {
     }
     
     func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
-        // Never called
+        // Correctly called called
         print("-------->")
         print(authDataResult)
         print(error)
