@@ -51,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/FirebaseUI-iOS.git",
       "state" : {
-        "revision" : "328c5cf8ea5297b518fbebe318fc80e1d60f19cd",
-        "version" : "14.2.1"
+        "revision" : "dba3881c27b986136321fe917523a6de61691a39",
+        "version" : "14.2.2"
       }
     },
     {
@@ -87,8 +87,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleUtilities.git",
       "state" : {
-        "revision" : "66dd81c729364b0425d0c2b73e38a489f32b1717",
-        "version" : "8.0.1"
+        "revision" : "53156c7ec267db846e6b64c9f4c4e31ba4cf75eb",
+        "version" : "8.0.2"
       }
     },
     {
